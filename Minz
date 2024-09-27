@@ -1,0 +1,43 @@
+getgenv().Hide_UI = true
+getgenv().BlackScreen = false
+_G.HopFruit1M = false
+_G.MinzConfig = {
+    ["Actions Allowed"] = {
+     ["Awakening Fruit"] = false,
+      ["Shark Anchor"] = false,
+      ["Mirror Fractal"] = true,
+      ["Pole (1st Form)"] = false,
+      ["Upgrading Race"] = true,
+      ["Farming Boss Drop When Maxed Level"] = false,
+      ["Rainbown Haki"] = true,
+      ["Cursed Dual Katana"] = true,
+      ["Buy accessories"] = false,
+      ["Buy Hakis"] = true,
+      ["Buy Guns"] = false,
+      ["Buy Swords"] = true,
+      ["Upgrade Weapons"] = true,
+      ["Saber"] = true
+    },
+    ["Fps Boosting"] = false,
+    ["Fruit Snipping"] = true,
+    ["Fruit Eating"] = false,
+    ["High Ping Hop"] = true,
+    ["Fruit Choosen"] = {
+      ["T-Rex-T-Rex"] = true,
+      ["Mammoth-Mammoth"] = true,
+      ["Dough-Dough"] = true,
+      ["Leopard-Leopard"] = true,
+      ["Venom-Venom"] = true,
+      ["Dragon-Dragon"] = true, true,
+      ["Kitsune-Kitsune"] = true
+    },
+    ["Player Nearing Hop"] = true,
+    ["Allow Stored"] = true,
+    ["Race Choosen"] = {
+      ["Human"] = true
+    },
+    ["Race Snipping"] = true,
+    ["Tween Speed"] = 350,
+    ["Same Y Tween"] = true,
+}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Minz/NewPage/main/Minz.lua'))()
